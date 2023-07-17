@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 45px;
+    width: 45px;
+}
+
+.navbar {
+    height: 60px;
+}
+
+#navItem1 {
+    color: #ffffff;
+    font-family: "Roboto";
+
+}
+
+#navItem2 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dwiaeepef/image/upload/v1689586123/alen-kajtezovic-S-AI-1k0F1k-unsplash_keiaoo.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.banner-caption {
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shop-button {
+    color: #e9e4eb;
+    background-color: #5d0693;
+    width: 130px;
+    height: 45px;
+    border-radius: 28px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+.shop-icon {
+    background-color: #d0b200;
+    border-radius: 70px;
+    font-size: 15px;
+    color: #5d0693;
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+}
+
+@media screen and (min-width: 768px) {
+    .banner-heading {
+        font-size: 35px;
+    }
+
+    .banner-caption {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner-caption {
+        color: black;
+        font-size: 20px;
+    }
+
+    .banner-heading {
+        font-size: 45px;
+        color: black;
+    }
+
+    .shop-button {
+        width: 150px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .bg-container {
+        background-image: url("https://res.cloudinary.com/dwiaeepef/image/upload/v1689513013/kenny-eliason-Wp7t4cWN-68-unsplash_wwhjgr.jpg");
+    }
+}
+
+.section-why-choose {
+    background-color: #b7eded;
+    text-align: center;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.wcu-card {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #e9dc91;
+    padding: 9px;
+    font-size: 13px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+    .wcu-section-heading {
+        font-size: 30px;
+    }
+
+    .wcu-section-description {
+        font-size: 19px;
+    }
+
+    .wcu-card-icon {
+        width: 65px;
+        height: 65px;
+        padding: 14px;
+        font-size: 28px;
+    }
+
+    .wcu-card-description {
+        font-size: 20px;
+    }
+
+    .wcu-card-title {
+        font-size: 28px;
+    }
+
+    .wcu-card {
+        width: 400px;
+        height: 300px;
+    }
+
+}
+
+.category-menu-section {
+    background-color: #b7eded;
+    text-align: center;
+}
+
+.categoey-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.category-item-image {
+    border-radius: 16px;
+    width: 100%;
+    height: 70%;
+}
+
+.category-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.menu-item-link {
+    color: #5d0693;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.category-item-card {
+    border-radius: 16px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #498884;
+    padding: 10px;
+}
+
+.category-item-card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 10;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .category-heading {
+        font-size: 40px;
+    }
+
+    .category-item-image {
+        height: 80%;
+    }
+
+    .category-card-title {
+        font-size: 22px;
+    }
+
+    .menu-item-link {
+        font-size: 16px;
+    }
+
+    .category-item-card {
+        height: 300px;
+        width: 300px;
+    }
+
+    .category-item-card:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+}
+
+.about-us-section {
+    background-color: #b7eded;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.about-img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.about-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.about-title {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.about-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.about-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+@media screen and (min-width:768px) {
+    .about-title {
+        font-size: 38px;
+    }
+
+    .about-heading {
+        font-size: 28px;
+    }
+
+    .about-description {
+        font-size: 22px;
+    }
+    .about-img{
+        width: 30%;
+        height: 20%;
+        border-radius: 10px;
+    }
+    .about-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.follow-us-section {
+    background-color: #17bfb4;
+}
+
+.hr-line {
+    color: #0a8c8c;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #e9f59a;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin: 15px;
+    padding: 8px;
+}
+
+.icon {
+    color: #0a8c8c;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .follow-us-icon-container {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        margin: 15px;
+        padding-top: 22px;
+        padding-bottom: 14px;
+        padding-right: 16px;
+        padding-left: 22px;
+    }
+
+    .icon {
+        color: #0a8c8c;
+        font-size: 42px;
+    }
+}
+
+
+.footer-section {
+    background-color: #487370;
+    padding: 30px;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-text {
+    color: #1fc4d3;
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .section {
+    width: 300px;
+}
+    .footer-text{
+        font-size: 16px;
+    }
+    .footer-heading{
+        font-size: 20px;
+    }
+    .last-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text {
+        margin: 10px;
+        font-size: 20px;
+    }
+}
